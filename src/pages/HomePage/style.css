@@ -1,0 +1,46 @@
+.headerpage {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 15px;
+  padding: 15px;
+}
+.loginpage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.div-banner {
+  display: flex;
+  width: 100%;
+  height: 350px;
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: pink;
+}
+
+.modais {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.modal {
+  display: flex;
+  border: 1px solid;
+  height: 100px;
+  width: 100px;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+}
