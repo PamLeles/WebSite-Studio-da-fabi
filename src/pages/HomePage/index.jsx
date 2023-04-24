@@ -3,7 +3,7 @@ import "./style.css";
 
 const HomePage = () => {
   return (
-    <div className="body">
+    <>
       <header className="headerpage">
         <div className="loginpage">
           <p>Login</p>
@@ -11,7 +11,7 @@ const HomePage = () => {
         </div>
 
         <div>
-          <p>sair</p>
+          <p>Sair</p>
         </div>
       </header>
 
@@ -20,41 +20,37 @@ const HomePage = () => {
       </div>
 
       <main className="main">
-        <p>Serviços oferecidos</p>
+        <p className="servico">Serviços oferecidos</p>
         <div className="modais">
           <div className="modal">
-            <p>Manicure e pedicure</p>
+            <p className="textmodais">Manicure e Pedicure</p>
           </div>
           <div className="modal">
-            <p>Depilação</p>
+            <p className="textmodais">Depilação</p>
           </div>
           <div className="modal">
-            <p>Designer de Sombrancelha</p>
+            <p className="textmodais">Designer de Sombrancelha</p>
           </div>
           <div className="modal">
-            <p>Alogamento de Cilios</p>
+            <p className="textmodais">Alongamento de Cilios</p>
+          </div>
+
+          <div className="modal">
+            <p className="textmodais">Servicos a domicilio</p>
           </div>
           <div className="modal">
-            <p>Cosmeticos</p>
-          </div>
-          <div className="modal">
-            <p>Servicos a domicilio</p>
-          </div>
-          <div className="modal">
-            <p>contato</p>
+            <p className="textmodais">contato</p>
           </div>
         </div>
       </main>
 
       <footer>
-        <div>
-          <ul>
-            <li>duvida</li>
-            <li>quem somos</li>
-          </ul>
-        </div>
+        <ul>
+          <li>Duvida</li>
+          <li>Quem somos</li>
+        </ul>
       </footer>
-    </div>
+    </>
   );
 };
 
